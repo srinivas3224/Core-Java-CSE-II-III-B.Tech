@@ -1,0 +1,41 @@
+
+
+
+Core Java" is Sun's term, used to refer to Java SE, the standard edition and 
+a set of related technologies, like the Java VM, CORBA, et cetera. 
+This is mostly to differentiate from, say, Java ME or Java EE.
+
+
+
+Java SE includes has the following APIs and many more
+
+applet
+awt
+rmi
+jdbc
+swing
+collections
+xml binding
+JavaFX (Merged to Java SE 8)
+Java 8 Streaming
+Java EE includes the following APIs and many more
+
+servlet
+websocket
+java faces
+dependency injection
+ejb
+persistence
+transaction
+jms
+batch api
+Java ME includes the following APIs and many more
+
+Wireless Messaging
+Java ME Web Services
+Security and Trust Services API
+Location
+Mobile XML API
+
+
+
