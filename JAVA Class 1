@@ -65,18 +65,17 @@ java methods:
       8  overriding methods
       9  final method
      10   native method
-     11 final method
-     12   native method
-      13  strictfp method
-      14  public method
-      15  private method
-      16  protected methods
-      17  default method
-      18  instance factory method {   method returns object  Strung str="srinivas";String str1=str.substring(2,4)}
-      19  static factory method     {  Class.forname(),Integer i=Integer.valueOf(10)}
-      20  pattern factory method  {StringBuffer s1=new StringBuffer("srinivas");  String s=sb.toString()   con con=con.drivermanager() }
-      21  synchronized method
-       22  non-synchronized method
+ 
+      11  strictfp method
+      12  public method
+      13  private method
+      14  protected methods
+      15  default method
+      16  instance factory method {   method returns object  Strung str="srinivas";String str1=str.substring(2,4)}
+      17  static factory method     {  Class.forname(),Integer i=Integer.valueOf(10)}
+      18  pattern factory method  {StringBuffer s1=new StringBuffer("srinivas");  String s=sb.toString()   con con=con.drivermanager() }
+      19  synchronized method
+      20  non-synchronized method
        
        Java classes:-
       1. normal classes
