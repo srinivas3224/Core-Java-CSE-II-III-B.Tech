@@ -1,0 +1,97 @@
+# Core-Java-CSE-II-III-B.Tech
+Core Java By Srinivas MVR College of Engineering and Technology
+
+
+Introduction To Java
+
+
+
+NOn Java Technologies
+
+Android
+selinium X openScript
+Hadoop
+ADF
+Magic
+MDM
+darwin
+Web App(SAP)
+Cloude Computing
+salesforce
+
+
+Java
+===============
+Advanced Java
+Structs
+Spring
+Web-Services
+Tools
+DesignPatterns
+JSF
+...
+...
+
+class Mvr
+{
+1) variables
+2) methods
+3) costructors
+4) instance blocks
+5) static blocks
+}
+
+Keywords:(50)
+8       Data types :    byte,short,int,long,float,double,char,boolean  
+10      flow control:if,else,switch,case,default,break,continue,for,while,do,
+5       Exception Handling  :try,catch,finally,throws,throw
+4       Object level :new,this,super,instanceof
+2       methods :void,return
+2       java 5 :enum,assert
+2       unused:goto,const
+6       source file :class,extends,interface,implements,package,import
+11      modifiers : public,private,protected,final,static,abstract,synchronized,strictfp,volatile,transient,native
+=======================================
+
+java methods:
+
+      1  instance methods
+      2  static methods
+      3  normal methods
+      4  abstract methods
+      5  accessor methods
+      6  mutator methods
+      7  overriddenmethods
+      8  overriding methods
+      9  final method
+     10   native method
+     11 final method
+     12   native method
+      13  strictfp method
+      14  public method
+      15  private method
+      16  protected methods
+      17  default method
+      18  instance factory method {   method returns object  Strung str="srinivas";String str1=str.substring(2,4)}
+      19  static factory method     {  Class.forname(),Integer i=Integer.valueOf(10)}
+      20  pattern factory method  {StringBuffer s1=new StringBuffer("srinivas");  String s=sb.toString()   con con=con.drivermanager() }
+      21  synchronized method
+       22  non-synchronized method
+       
+       Java classes:-
+      1. normal classes
+      2. abstract class
+      3. final class
+      4. strictfp class
+      5. immutable class
+      6. mutable class
+      7. public class
+      8. default class
+
+
+
+
+
+
+                        
+        
