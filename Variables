@@ -1,6 +1,5 @@
 About Variables
 
-
 class Mvr
 {
 1. Variables
@@ -52,6 +51,7 @@ Instance variables
 1. The variables that decleared inside the class out side mathods are called Local Variables
 2. scope inside the class all methods,
 3. object created to object destroyed:scope
+4.heap memory
 
 Declaraction
 
@@ -93,8 +93,122 @@ void m1()
   
 }
 
+}
+
+static variables:
+1)Decleared inside the class but outside of the method with static modifier
+2) scope is with in the class
+3) .class loading memory allocated--------->.class unloading memory destroyed
+
+
+non-heap
+
+
+
+clas test
+{
+static int a=1000;
+static int b=2000;
+
+public static void main(String[] args)
+{
+System.out.println(Test.a);
+System.out.println(Test.b);
+t.m1();
+}
+
+void m1()
+{
+System.out.println(Test.a);
+System.out.println(Test.b);
 
 }
+}
+
+Entire acess atatic variables by using class name.
+
+Assignment 1:
+
+class Test
+{
+ 2 instance variables
+ 
+ static void m1()
+ {
+  print 2-var
+ }
+
+ static void m1()
+ {
+  print 2-var
+ }
+
+
+
+psvm(sa)
+{
+call m1();
+call m2();
+}
+}
+
+==============================================
+class Test
+{
+
+static int a=100;
+psvm(sa)
+{
+sop(Test.a)// 1 way
+sop(a) // 2 way
+Test t1=new Test()
+sop(t1.a)// 3 rd way
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
