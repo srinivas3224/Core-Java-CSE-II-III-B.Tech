@@ -1,0 +1,13 @@
+
+class is a logical entity,contining logic of application
+object is a physical entity reprasenting memory
+
+
+class ia a blueprint for creating object creation without class it is not possible to create object.
+
+
+single blue print -->multipleobject
+
+
+class keyword is used to create class
+create the object using new  keyword.
