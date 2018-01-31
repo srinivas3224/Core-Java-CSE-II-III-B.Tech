@@ -1,0 +1,22 @@
+class test
+{
+int a=10;
+static int b=100;
+
+psvm(sa)
+{
+Test t1=new test()
+sop(t1.a);
+sop(t1.b);
+
+t1.a=222;
+t1.b=333;
+sop(t1.a);
+sop(t1.b);
+
+
+Test t2=new Test()
+sop(t2.a);
+sop(t2.b);
+}
+}
