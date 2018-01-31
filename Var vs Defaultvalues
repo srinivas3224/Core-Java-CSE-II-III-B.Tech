@@ -1,0 +1,80 @@
+
+Var vs Default vaues
+if we assign the value that values are printed 
+otherwise defaultvaues are printed
+
+
+JVM provides Default values.
+
+Class default value is null
+
+byte  0
+float 0
+int 0
+long  0
+float 0.0
+double 0.0
+char single space
+boolean  false
+
+class test
+{
+int a;
+boolean b;
+psvm(sa)
+{
+
+Test  t1=new Test();
+sop(t1.a);
+sop(t1.b);
+}
+}
+
+
+For instance variables JVM assign defult values are printed.
+For static variables JVM assign defult values are printed.
+
+For Local variables JVM not assign default vaues.before using we must initalize it;
+
+
+assignment:
+class Test
+{
+2 ins var
+2 static var
+void m1()
+{
+pribnt all
+}
+static void m2()
+{
+}print all
+
+psvm(sa)
+{
+caal m1()
+call m2()
+}
+}
+
+
+Example  instance vs static
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
