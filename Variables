@@ -1,1 +1,103 @@
 About Variables
+
+
+class Mvr
+{
+1. Variables
+2. methods
+3. constructor
+4. Instance Blocks
+5. Static Blocks
+}
+
+int a=10  
+primitive,class type,enum,local type
+
+Local variables
+Instance variables
+Static Variables
+
+Variable are used to store the value by using which we achive project requirements.
+
+
+Local Variables:
+
+1).Decleared inside the method or constructor or blocks
+2) scope with in block
+3) memory allocation 
+  When method started and memory released when method is completed
+4)shared memory   
+class test
+{
+public static void main (String[] args)
+{
+a=10;
+int b=20;
+sop(a+b);
+}
+}
+
+void m1()
+{
+int a=10;
+sop(a);
+}
+void m2()
+{
+sop(a);not posible  
+}
+
+====================================
+Instance variables
+1. The variables that decleared inside the class out side mathods are called Local Variables
+2. scope inside the class all methods,
+3. object created to object destroyed:scope
+
+Declaraction
+
+
+
+
+                    iv&Im
+                    
+                    
+          
+          DIRECT ACCESS                 ACCESS THROUGH OBJECT
+          
+Instance Area                    Static Area
+void m1()
+{
+}
+
+static  void m1()
+{
+}
+
+
+EXAMPLE:
+class Test
+{
+int a=10;
+int b=20;
+p static vm(sA)
+{
+Test t=new Test();
+System.out.println((t.a);
+System.out.println((t.b);
+t.m1();
+}
+void m1()
+{
+  System.out.println(a);
+  System.out.println(b);
+  
+}
+
+
+}
+
+
+
+
+
+
