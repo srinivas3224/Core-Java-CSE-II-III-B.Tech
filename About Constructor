@@ -1,0 +1,300 @@
+
+1) new keyword
+2) Instance factory method
+3) Static factory method
+4) Patternfactory method
+5) Newinstance method
+6) clone  method
+7)deserealization method
+
+class Mvr
+{
+Mvr m==new Mvr();
+Mvr  ----->class name
+m---------->ref var
+=  ------------>assignment operator
+new ---------> keyWord(Used to create Object)
+MVR()--------> constructor
+}
+
+===============================================
+Rules to Declear Constructors.
+1. Same name
+2. Cont are able to take parameters
+3  Constructors are not allowed return types
+================================================
+
+Prog1:
+class Mvr
+{
+void m1()
+{
+Sop("this is m1 method");
+}
+psvm(Sargs)
+{
+Mvr m=new Mvr();
+m.m1();
+}
+}
+-------->compiler genarates 0 arg constructor==Default Constructor
+
+Types:
+1. Default Constructor //  0 org cons   empty implementation
+2. User Defined constructor    
+
+Dc is genarated by Compiler at run time it is executed when Object is Created .
+
+
+Prog 2: User Defined Costructors
+
+
+class Mvr
+{
+Mvr()
+{
+Sop("This is 0 org copstructor");
+}
+Mvr(int a)
+{
+Sop("This is 1 org copstructor");
+}
+
+void m1()
+{
+Sop("this is m1 method");
+}
+psvm(Sargs)
+{
+Mvr m=new Mvr();
+Mvr n=new Mvr(10);
+m.m1();
+m.m2();
+
+}
+}
+
+Prog 3:
+
+
+class Mvr
+{
+Mvr()
+{
+Sop("This is 0 org copstructor");
+}
+Mvr(int a)
+{
+Sop("This is 1 org copstructor");
+}
+
+psvm(Sargs)
+{
+Mvr m=new Mvr();
+Mvr n=new Mvr(10);
+
+}
+}
+
+
+prog 4:
+
+
+
+class Mvr
+{
+Mvr(int a)
+{
+Sop("This is 1 org copstructor");
+}
+
+psvm(Sargs)
+{
+Mvr m=new Mvr();
+Mvr n=new Mvr(10);
+
+}
+}
+
+
+Inside the class if we are not decleared one constructor then compiler genarates Default Costructors
+otherwise not
+
+
+===========================
+Uses
+===========================
+
+1->logic@object creation 20%
+2->init variables 80%
+
+
+prog 5:use 1
+class Mvr
+{
+Mvr()
+{
+Sop("This is 0 org copstructor");
+}
+
+psvm(Sargs)
+{
+Mvr m=new Mvr();
+
+}
+}
+
+prog 6:
+Use2:
+class Student
+{
+int rno;   //0
+String sname; //null
+float per; //0.0
+void info()
+{
+sop("Id:"+rno);
+sop("Studen Name:"+sname);
+sop("percentage:"+per);
+
+}
+psvm(sa)
+{
+Student s=new Student();
+s.info();
+}
+}
+
+problem:the default values are printed even object is creted.
+
+
+
+prog 7:
+Use2:
+class Student
+{
+int rno;   //0
+String sname; //null
+float per; //0.0
+Student()
+{
+rno=3224;
+sname="srithan sai";
+per=99.99f;
+}
+void info()
+{
+sop("Id:"+rno);
+sop("Studen Name:"+sname);
+sop("percentage:"+per);
+
+}
+psvm(sa)
+{
+Student s=new Student();
+s.info();
+}
+}
+
+The constructor is used to initalize some values to instance variables during Object Creation.
+
+
+Every Java Technolgy uses Class
+
+
+
+
+prog 8:
+Use2:
+class Student
+{
+int rno;   //0
+String sname; //null
+float per; //0.0
+Student()
+{
+rno=3224;
+sname="srithan sai";
+per=99.99f;
+}
+void info()
+{
+sop("Id:"+rno);
+sop("Studen Name:"+sname);
+sop("percentage:"+per);
+
+}
+psvm(sa)
+{
+Student s=new Student();
+s.info();
+Student s1=new Student();
+s.info();
+
+Student s2=new Student();
+s.info();
+
+}
+}
+problem:?
+?????????????????????????????????????????
+
+class Student
+{
+int rno;   //0
+String sname; //null
+float per; //0.0
+Student(int rno,String sname,float per)
+{
+this.rno=rno;
+this.sname=sname";
+this.per=99.99f;
+}
+void info()
+{
+sop("Id:"+rno);
+sop("Studen Name:"+sname);
+sop("percentage:"+per);
+
+}
+psvm(sa)
+{
+Student s=new Student(1,"srinivas",9999);
+s.info();
+Student s1=new Student(2,"krithik",77777);
+s.info();
+
+Student s2=new Student(3,"srithan",6565);
+s.info();
+
+}
+}
+
+
+
+costructor local global variable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
